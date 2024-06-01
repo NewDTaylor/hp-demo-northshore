@@ -1,0 +1,481 @@
+/*-------------------------------------------*\
+  Font Family
+\*-------------------------------------------*/
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("'https://fonts.googleapis.com/css?family=Poppins:400,400i,700,700i|Gelasio:600,600i,700,700i'");
+}
+
+body {
+  font-family: "Gelasio", serif !important;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/*-------------------------------------------*\
+  Main Variables
+\*-------------------------------------------*/
+
+[class~="space-large"][class*="segment"] {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+[class*="segment"] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container {
+  max-width: 1170px !important ;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  font-size: 38px !important;
+}
+h2 {
+  font-size: 32px !important;
+}
+h3 {
+  font-size: 22px !important;
+}
+h4 {
+  font-size: 20px !important;
+}
+h5 {
+  font-size: 18px !important;
+}
+h6 {
+  font-size: 16px !important;
+}
+h1,
+h2,
+h3 {
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+}
+
+.accent2 {
+  color: #00215f;
+}
+.accent3 {
+  color: #333333;
+}
+.accent4 {
+  color: #930b27;
+}
+.accent5 {
+  color: #666666;
+}
+.accent6 {
+  color: #ffffff;
+}
+
+.segment1 {
+  color: #666666;
+  background-color: #ffffff;
+}
+.segment2 {
+  color: #666666;
+  background-color: #f2f2f2;
+}
+.segment3 {
+  color: #ffffff;
+  background-color: #b61231;
+}
+
+.segment4 {
+  color: #ffffff;
+  background-color: #00215f;
+}
+.segment4 {
+  color: #ffffff;
+  background-color: #00215f;
+}
+.space-huge {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.space-large {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.space-small {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a.btn.btn-primary {
+  border-color: #b61231 !important;
+  background-color: #b61231 !important;
+  color: #ffffff;
+  text-shadow: none;
+  color: #fff;
+  border-radius: 25px;
+  font-weight: 700;
+  padding: 10px 20px;
+  transition: 0.3s !important;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+.font-white {
+  color: #fff;
+}
+.font-red {
+  color: #f20606;
+}
+.margin-top-20 {
+  margin-top: 20px;
+}
+.margin-top-40 {
+  margin-top: 40px;
+}
+.margin-top-60 {
+  margin-top: 60px;
+}
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+.margin-bottom-60 {
+  margin-bottom: 60px;
+}
+
+.main-header > .container > .row .main-header-right {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+nav.cutom-main-nav ul li {
+  padding: 20px;
+}
+.main-header {
+  border-bottom: 7px solid #b61231;
+}
+
+.flex-box {
+  display: flex;
+}
+.phone-call-session {
+  color: #ffffff;
+  background-color: #b61231;
+}
+
+.hp-seg1 {
+  background-image: url(banner-the-leading-cabling.webp);
+}
+.hp-seg1 {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.hp-seg2 .icon-systems .icon-box {
+  flex: 0 0 15%;
+}
+.comprehensive-session .service-red-box {
+  background: #00215f;
+  padding: 20px;
+  border-radius: 0 0 20px 20px;
+  margin-top: -10px;
+  min-height: 220px;
+}
+.comprehensive-session .service-red-box h3 {
+  margin-top: 20px;
+}
+.comprehensive-session .service-red-box:hover {
+  background: #b61231;
+  transition: 0.3s;
+}
+.empowering-session .home-bg,
+.empowering-session .k-12-bg,
+.empowering-session .hospital-bg,
+.empowering-session .health-bg,
+.empowering-session .retail-bg,
+.empowering-session .finance-bg,
+.empowering-session .industrial-bg,
+.empowering-session .bar-bg,
+.empowering-session .transport-bg,
+.empowering-session .house-bg {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.empowering-session .home-bg {
+  background-image: url(img-sg5-home.webp);
+}
+
+.empowering-session .k-12-bg {
+  background-image: url(img-sg5-k-12.webp);
+}
+
+.empowering-session .hospital-bg {
+  background-image: url(img-sg5-hospitality.webp);
+}
+
+.empowering-session .health-bg {
+  background-image: url(img-sg5-healthcare.webp);
+}
+
+.empowering-session .retail-bg {
+  background-image: url(img-sg5-retail.webp);
+}
+
+.empowering-session .finance-bg {
+  background-image: url(img-sg5-finance.webp);
+}
+
+.empowering-session .industrial-bg {
+  background-image: url(img-sg5-industrials.webp);
+}
+
+.empowering-session .bar-bg {
+  background-image: url(img-sg5-bars-and-restaurants.webp);
+}
+
+.empowering-session .transport-bg {
+  background-image: url(img-sg5-transportation.webp);
+}
+
+.empowering-session .house-bg {
+  background-image: url(img-sg5-houses-of-worship.webp);
+}
+
+.empowering-session .transparent-btn {
+  background: transparent;
+  border: 1px solid;
+}
+.empowering-session .business-services-items .front-box {
+  background: #b61231;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.empowering-session .business-services-items:hover .front-box {
+  opacity: 0;
+  -webkit-transform: translateY(-60%);
+  transform: translateY(-60%);
+}
+
+.empowering-session .business-services-items:hover .back-box {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  background: #b61231;
+  color: #fff;
+}
+
+.empowering-session .business-services-items {
+  margin-bottom: 30px;
+  background-color: #f2f2f2;
+  max-width: 360px;
+  min-height: 300px;
+  padding: 30px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.empowering-session .back-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+  opacity: 0;
+  visibility: hidden;
+}
+.hp-seg2 img,
+.empowering-session .business-services-items,
+.life-session img,
+.hp-seg4-why-session .well.why-chose-box,
+.shore-form-session .well.shore-form {
+  border-radius: 20px;
+}
+
+.hp-seg2 .icon-systems .icon-box {
+  flex: 0 0 15%;
+}
+
+.hp-seg3 .well {
+  color: #666666;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 60px 20px;
+  min-height: 400px;
+}
+
+.hp-seg4-why-session .well.why-chose-box {
+  background: #00215f;
+  padding: 40px 20px;
+  color: #fff;
+  min-height: 450px;
+}
+.hp-seg4-location-session li {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-social-icon img {
+  background: #b61231;
+  margin: 5px;
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+  color: #000;
+  padding: 10px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  nav.cutom-main-nav ul li {
+    padding: 12px;
+  }
+  .hp-seg4-box-text {
+    height: 60px;
+  }
+  .hp-seg4-why-session .well.why-chose-box {
+    min-height: 495px;
+  }
+  .blog-post-session .grid.horizontal-a.col-md-3.blog-list {
+    min-height: 730px;
+  }
+}
+@media (max-width: 991px) {
+  [class~="space-large"][class*="segment"] {
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  [class*="segment"] {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  nav.cutom-main-nav {
+    display: none;
+  }
+  .mobile-bg-seg1 {
+    min-height: 400px;
+  }
+  .hp-seg1 .hp-seg1-box {
+    text-align: center;
+  }
+  .hp-seg4-location-session ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+  .hp-seg4-location-session h2 {
+    text-align: center;
+  }
+  .blog-post-session .btn {
+    padding: 10px;
+  }
+
+  .blog-post-session .grid.horizontal-a.col-md-3.blog-list {
+    min-height: 770px;
+  }
+  .blog-post-session .row-condensed {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .hp-seg1 {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .hp-seg1 .container {
+    padding-top: 40px;
+  }
+  .hp-seg1 .hp-seg1-box {
+    width: unset;
+  }
+  .hp-seg1 .hp-seg1-box .hp-seg1-logo {
+    margin-top: 40px;
+  }
+  .hp-seg4-box-text {
+    height: 60px;
+  }
+  .hp-seg4-location-session ul {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
+  .blog-post-session {
+    text-align: center;
+  }
+
+  .mobile-bg-seg1 {
+    background-image: url(banner-the-leading-cabling-mb.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .mobile-bg-seg1 {
+    min-height: 1040px;
+  }
+
+  .blog-post-session .media-object {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .blog-post-session .row-condensed {
+    display: inline;
+    text-align: center;
+  }
+  .blog-post-session .grid.horizontal-a.col-md-3.blog-list {
+    min-height: 600px;
+  }
+
+  .empowering-session .business-services-items {
+    max-width: unset;
+  }
+}

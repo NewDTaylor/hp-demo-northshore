@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6" data-name="Rectangle 6" width="300" height="300" transform="translate(771 52)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id=":_logo-AVAYA" data-name=": logo-AVAYA" transform="translate(-771 -52)">
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="300" height="300" transform="translate(771 52)" fill="#fff"/>
+    <g id="Mask_Group_1" data-name="Mask Group 1" clip-path="url(#clip-path)">
+      <g id="Symbols" transform="translate(792.848 173.556)">
+        <g id="Footer">
+          <g id="Group-65">
+            <g id="Group-59" transform="translate(0 0)">
+              <g id="avaya-logo-red" transform="translate(0 0)">
+                <path id="Fill-1" d="M256.887,0,231.027,52.992h10.426l3.766-8.043h23.615L266,37.943h-17.5l11.979-25.868,19.043,40.917h10.426L264.1,0Z" transform="translate(-33.65)" fill="#da291c" fill-rule="evenodd"/>
+                <path id="Fill-2" d="M25.863,0,0,52.992H10.431L14.2,44.949H37.8l-2.826-7.006H17.487L29.465,12.076,48.5,52.992H58.927L33.076,0Z" fill="#da291c" fill-rule="evenodd"/>
+                <path id="Fill-3" d="M140.942,0,115.083,52.992h10.426l3.766-8.043h23.615l-2.834-7.006h-17.5l11.983-25.868,19.043,40.917H174.01L148.155,0Z" transform="translate(-16.762)" fill="#da291c" fill-rule="evenodd"/>
+                <path id="Fill-4" d="M106.075,0,87.036,41.693,67.984,0h-10.4L83.421,52.992h7.225L116.493,0Z" transform="translate(-8.387)" fill="#da291c" fill-rule="evenodd"/>
+                <path id="Fill-5" d="M222.269,0,202.437,42.473,184.174,0H173.756L197.27,52.992l-10.249,19.9h9.971L232.674,0Z" transform="translate(-25.308)" fill="#da291c" fill-rule="evenodd"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
